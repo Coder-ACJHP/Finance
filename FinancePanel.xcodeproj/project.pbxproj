@@ -6,6 +6,26 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		F22F21522F4DBA2600A7551A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F22F214D2F4DBA2600A7551A /* Assets.xcassets */; };
+		F22F21532F4DBA2600A7551A /* FinanceStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21472F4DBA2600A7551A /* FinanceStore.swift */; };
+		F22F21542F4DBA2600A7551A /* FinancePanelApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21492F4DBA2600A7551A /* FinancePanelApp.swift */; };
+		F22F21552F4DBA2600A7551A /* Expense.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F214B2F4DBA2600A7551A /* Expense.swift */; };
+		F22F21562F4DBA2600A7551A /* MainDashboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F214F2F4DBA2600A7551A /* MainDashboard.swift */; };
+		F22F21592F4DBA2B00A7551A /* FinancePanelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21572F4DBA2B00A7551A /* FinancePanelTests.swift */; };
+		F22F215D2F4DBA2F00A7551A /* FinancePanelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F215A2F4DBA2F00A7551A /* FinancePanelUITests.swift */; };
+		F22F215E2F4DBA2F00A7551A /* FinancePanelUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F215B2F4DBA2F00A7551A /* FinancePanelUITestsLaunchTests.swift */; };
+		F22F21602F4DBC5600A7551A /* ExpenseListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F215F2F4DBC5600A7551A /* ExpenseListView.swift */; };
+		F22F21622F4DBD6C00A7551A /* SummeryCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21612F4DBD6B00A7551A /* SummeryCardView.swift */; };
+		F22F21642F4DC09E00A7551A /* AddExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21632F4DC09E00A7551A /* AddExpenseView.swift */; };
+		F22F21662F4DC3A300A7551A /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21652F4DC3A300A7551A /* ChartView.swift */; };
+		F22F21682F4DE4A700A7551A /* FilterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22F21672F4DE4A600A7551A /* FilterView.swift */; };
+		F2FAD9BE2F4F1321006C31ED /* AuthManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAD9BD2F4F1321006C31ED /* AuthManager.swift */; };
+		F2FAD9C02F4F13CE006C31ED /* AuthView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAD9BF2F4F13CE006C31ED /* AuthView.swift */; };
+		F2FAD9C22F4F21D0006C31ED /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAD9C12F4F21D0006C31ED /* SettingsView.swift */; };
+		F2FAD9C62F4F2BA3006C31ED /* SplashView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2FAD9C52F4F2BA3006C31ED /* SplashView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		F22F211F2F4DB86D00A7551A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,25 +47,24 @@
 		F22F21112F4DB86B00A7551A /* FinancePanel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FinancePanel.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22F211E2F4DB86D00A7551A /* FinancePanelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancePanelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F22F21282F4DB86D00A7551A /* FinancePanelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FinancePanelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F22F21472F4DBA2600A7551A /* FinanceStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinanceStore.swift; sourceTree = "<group>"; };
+		F22F21492F4DBA2600A7551A /* FinancePanelApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancePanelApp.swift; sourceTree = "<group>"; };
+		F22F214B2F4DBA2600A7551A /* Expense.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Expense.swift; sourceTree = "<group>"; };
+		F22F214D2F4DBA2600A7551A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F22F214F2F4DBA2600A7551A /* MainDashboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainDashboard.swift; sourceTree = "<group>"; };
+		F22F21572F4DBA2B00A7551A /* FinancePanelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancePanelTests.swift; sourceTree = "<group>"; };
+		F22F215A2F4DBA2F00A7551A /* FinancePanelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancePanelUITests.swift; sourceTree = "<group>"; };
+		F22F215B2F4DBA2F00A7551A /* FinancePanelUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinancePanelUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F22F215F2F4DBC5600A7551A /* ExpenseListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExpenseListView.swift; sourceTree = "<group>"; };
+		F22F21612F4DBD6B00A7551A /* SummeryCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SummeryCardView.swift; sourceTree = "<group>"; };
+		F22F21632F4DC09E00A7551A /* AddExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddExpenseView.swift; sourceTree = "<group>"; };
+		F22F21652F4DC3A300A7551A /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
+		F22F21672F4DE4A600A7551A /* FilterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilterView.swift; sourceTree = "<group>"; };
+		F2FAD9BD2F4F1321006C31ED /* AuthManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthManager.swift; sourceTree = "<group>"; };
+		F2FAD9BF2F4F13CE006C31ED /* AuthView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthView.swift; sourceTree = "<group>"; };
+		F2FAD9C12F4F21D0006C31ED /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		F2FAD9C52F4F2BA3006C31ED /* SplashView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		F22F21132F4DB86B00A7551A /* FinancePanel */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinancePanel;
-			sourceTree = "<group>";
-		};
-		F22F21212F4DB86D00A7551A /* FinancePanelTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinancePanelTests;
-			sourceTree = "<group>";
-		};
-		F22F212B2F4DB86D00A7551A /* FinancePanelUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = FinancePanelUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		F22F210E2F4DB86B00A7551A /* Frameworks */ = {
@@ -75,9 +94,9 @@
 		F22F21082F4DB86B00A7551A = {
 			isa = PBXGroup;
 			children = (
-				F22F21132F4DB86B00A7551A /* FinancePanel */,
-				F22F21212F4DB86D00A7551A /* FinancePanelTests */,
-				F22F212B2F4DB86D00A7551A /* FinancePanelUITests */,
+				F22F21512F4DBA2600A7551A /* FinancePanel */,
+				F22F21582F4DBA2B00A7551A /* FinancePanelTests */,
+				F22F215C2F4DBA2F00A7551A /* FinancePanelUITests */,
 				F22F21122F4DB86B00A7551A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +109,116 @@
 				F22F21282F4DB86D00A7551A /* FinancePanelUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		F22F21482F4DBA2600A7551A /* DataStore */ = {
+			isa = PBXGroup;
+			children = (
+				F22F21472F4DBA2600A7551A /* FinanceStore.swift */,
+				F2FAD9BD2F4F1321006C31ED /* AuthManager.swift */,
+			);
+			path = DataStore;
+			sourceTree = "<group>";
+		};
+		F22F214A2F4DBA2600A7551A /* Lifecycle */ = {
+			isa = PBXGroup;
+			children = (
+				F22F21492F4DBA2600A7551A /* FinancePanelApp.swift */,
+			);
+			path = Lifecycle;
+			sourceTree = "<group>";
+		};
+		F22F214C2F4DBA2600A7551A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F22F214B2F4DBA2600A7551A /* Expense.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F22F214E2F4DBA2600A7551A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F22F214D2F4DBA2600A7551A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		F22F21502F4DBA2600A7551A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAD9C42F4F2B99006C31ED /* SplashView */,
+				F2FAD9C92F4F2BDA006C31ED /* AuthView */,
+				F2FAD9C72F4F2BB5006C31ED /* MainView */,
+				F2FAD9C82F4F2BC6006C31ED /* SettingsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F22F21512F4DBA2600A7551A /* FinancePanel */ = {
+			isa = PBXGroup;
+			children = (
+				F22F214A2F4DBA2600A7551A /* Lifecycle */,
+				F22F214E2F4DBA2600A7551A /* Resources */,
+				F22F21482F4DBA2600A7551A /* DataStore */,
+				F22F214C2F4DBA2600A7551A /* Models */,
+				F22F21502F4DBA2600A7551A /* Views */,
+			);
+			path = FinancePanel;
+			sourceTree = "<group>";
+		};
+		F22F21582F4DBA2B00A7551A /* FinancePanelTests */ = {
+			isa = PBXGroup;
+			children = (
+				F22F21572F4DBA2B00A7551A /* FinancePanelTests.swift */,
+			);
+			path = FinancePanelTests;
+			sourceTree = "<group>";
+		};
+		F22F215C2F4DBA2F00A7551A /* FinancePanelUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F22F215A2F4DBA2F00A7551A /* FinancePanelUITests.swift */,
+				F22F215B2F4DBA2F00A7551A /* FinancePanelUITestsLaunchTests.swift */,
+			);
+			path = FinancePanelUITests;
+			sourceTree = "<group>";
+		};
+		F2FAD9C42F4F2B99006C31ED /* SplashView */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAD9C52F4F2BA3006C31ED /* SplashView.swift */,
+			);
+			path = SplashView;
+			sourceTree = "<group>";
+		};
+		F2FAD9C72F4F2BB5006C31ED /* MainView */ = {
+			isa = PBXGroup;
+			children = (
+				F22F214F2F4DBA2600A7551A /* MainDashboard.swift */,
+				F22F215F2F4DBC5600A7551A /* ExpenseListView.swift */,
+				F22F21612F4DBD6B00A7551A /* SummeryCardView.swift */,
+				F22F21632F4DC09E00A7551A /* AddExpenseView.swift */,
+				F22F21652F4DC3A300A7551A /* ChartView.swift */,
+				F22F21672F4DE4A600A7551A /* FilterView.swift */,
+			);
+			path = MainView;
+			sourceTree = "<group>";
+		};
+		F2FAD9C82F4F2BC6006C31ED /* SettingsView */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAD9C12F4F21D0006C31ED /* SettingsView.swift */,
+			);
+			path = SettingsView;
+			sourceTree = "<group>";
+		};
+		F2FAD9C92F4F2BDA006C31ED /* AuthView */ = {
+			isa = PBXGroup;
+			children = (
+				F2FAD9BF2F4F13CE006C31ED /* AuthView.swift */,
+			);
+			path = AuthView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -106,9 +235,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				F22F21132F4DB86B00A7551A /* FinancePanel */,
 			);
 			name = FinancePanel;
 			packageProductDependencies = (
@@ -130,9 +256,6 @@
 			dependencies = (
 				F22F21202F4DB86D00A7551A /* PBXTargetDependency */,
 			);
-			fileSystemSynchronizedGroups = (
-				F22F21212F4DB86D00A7551A /* FinancePanelTests */,
-			);
 			name = FinancePanelTests;
 			packageProductDependencies = (
 			);
@@ -152,9 +275,6 @@
 			);
 			dependencies = (
 				F22F212A2F4DB86D00A7551A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				F22F212B2F4DB86D00A7551A /* FinancePanelUITests */,
 			);
 			name = FinancePanelUITests;
 			packageProductDependencies = (
@@ -212,6 +332,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22F21522F4DBA2600A7551A /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +357,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22F21532F4DBA2600A7551A /* FinanceStore.swift in Sources */,
+				F22F21542F4DBA2600A7551A /* FinancePanelApp.swift in Sources */,
+				F22F21602F4DBC5600A7551A /* ExpenseListView.swift in Sources */,
+				F22F21622F4DBD6C00A7551A /* SummeryCardView.swift in Sources */,
+				F22F21682F4DE4A700A7551A /* FilterView.swift in Sources */,
+				F22F21642F4DC09E00A7551A /* AddExpenseView.swift in Sources */,
+				F22F21552F4DBA2600A7551A /* Expense.swift in Sources */,
+				F22F21562F4DBA2600A7551A /* MainDashboard.swift in Sources */,
+				F2FAD9C62F4F2BA3006C31ED /* SplashView.swift in Sources */,
+				F22F21662F4DC3A300A7551A /* ChartView.swift in Sources */,
+				F2FAD9C22F4F21D0006C31ED /* SettingsView.swift in Sources */,
+				F2FAD9C02F4F13CE006C31ED /* AuthView.swift in Sources */,
+				F2FAD9BE2F4F1321006C31ED /* AuthManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -243,6 +377,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22F21592F4DBA2B00A7551A /* FinancePanelTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F22F215D2F4DBA2F00A7551A /* FinancePanelUITests.swift in Sources */,
+				F22F215E2F4DBA2F00A7551A /* FinancePanelUITestsLaunchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -8,34 +8,38 @@
 import XCTest
 
 final class FinancePanelUITests: XCTestCase {
+    
+    let app = XCUIApplication()
 
+    @MainActor
     override func setUpWithError() throws {
-        // Put setup code here. This method is called before the invocation of each test method in the class.
-
         // In UI tests it is usually best to stop immediately when a failure occurs.
         continueAfterFailure = false
-
-        // In UI tests it’s important to set the initial state - such as interface orientation - required for your tests before they run. The setUp method is a good place to do this.
-    }
-
-    override func tearDownWithError() throws {
-        // Put teardown code here. This method is called after the invocation of each test method in the class.
-    }
-
-    @MainActor
-    func testExample() throws {
-        // UI tests must launch the application that they test.
-        let app = XCUIApplication()
+        // Relaunch before test
         app.launch()
-
-        // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
-
-    @MainActor
-    func testLaunchPerformance() throws {
-        // This measures how long it takes to launch your application.
-        measure(metrics: [XCTApplicationLaunchMetric()]) {
-            XCUIApplication().launch()
-        }
+    
+    func test_should_add_new_expense_successfully() {
+        let addButton = app.navigationBars["My Budget"].buttons["Add"]
+        XCTAssertTrue(addButton.waitForExistence(timeout: 5))
+        addButton.tap()
+        
+        let textField = app.textFields["Harcama Başlığı"]
+        XCTAssertTrue(textField.exists)
+        textField.tap()
+        textField.typeText(String("Test Sinema"))
+        
+        let addExpenseButton = app.textFields["Miktar"]
+        XCTAssertTrue(addExpenseButton.exists)
+        addExpenseButton.tap()
+        addExpenseButton.typeText("99,99")
+        
+        app.toolbars.buttons["Done"].tap()
+        
+        let saveButton = app.buttons["button_save_expense"]
+        saveButton.tap()
+        
+        let newExpenseLabel = app.staticTexts["Test Sinema"]
+        XCTAssertTrue(newExpenseLabel.waitForExistence(timeout: 2), "Yeni harcama listede görünmüyor!")
     }
 }

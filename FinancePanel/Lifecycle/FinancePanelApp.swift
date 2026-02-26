@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct FinancePanelApp: App {
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashView()
         }
     }
 }
